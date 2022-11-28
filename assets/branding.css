@@ -1,9 +1,11 @@
 :root {
-  --primary-bg-color: #8791ff;
+  --primary-bg-color: #242A38;
   --primary-text-color: #fff;
 
-  --secondry-bg-color: #8791ff;
+  --secondry-bg-color: #242A38;
   --secondry-text-color: #fff;
+
+  --logo-url: url(/connector-pub/logo/ukhub-moneff-logo.png);
 }
 
 .content-header {
@@ -76,7 +78,7 @@
   height: 100px;
   width: 300px;
   margin: 20px auto;
-  background: url(/connector-pub/logo/dev-ui-logo.png) center center;
+  background: var(--logo-url) center center;
   background-size: contain;
   background-repeat: no-repeat;
 }
