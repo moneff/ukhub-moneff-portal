@@ -7,6 +7,10 @@
 
   --logo-url: url(/connector-pub/logo/ukhub-moneff-logo.png);
 }
+.aside-logo img{
+  width: 100px;
+  height: auto;
+}
 
 .content-header {
   background-color:var(--primary-bg-color);
