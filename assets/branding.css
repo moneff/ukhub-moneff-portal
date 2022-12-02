@@ -8,8 +8,15 @@
   --logo-url: url(/connector-pub/logo/ukhub-moneff-logo.png);
 }
 .aside-logo img{
-  width: 100px;
   height: auto;
+}
+
+.index-logo {
+  height: 50px;
+  margin: 20px auto;
+  background: var(--logo-url) center center;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .content-header {
@@ -77,16 +84,6 @@
   background-color:var(--primary-bg-color) !important;
   border-color:var(--primary-bg-color) !important;
 }
-
-.index-logo {
-  height: 100px;
-  width: 300px;
-  margin: 20px auto;
-  background: var(--logo-url) center center;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
 
 .aside-loggedin-user h6{
   color: var(--secondry-text-color) !important;
