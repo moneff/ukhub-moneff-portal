@@ -34,8 +34,6 @@ Pagination is supported on GET /accounts/{AccountId}/transactions end point with
 ## Beneficiaries
 [Beneficiaries API](/perry/developer/documentation?resource=ukhub-moneff-portal&document=swagger/account-info-openapi.yaml#operations-tag-Beneficiaries)
 
-> Not currently supported.
-
 ## Direct Debits
 [Direct Debits API](/perry/developer/documentation?resource=ukhub-moneff-portal&document=swagger/account-info-openapi.yaml#operations-tag-Direct_Debits)
 
