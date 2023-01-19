@@ -30,4 +30,4 @@ To access the production environment, you must be a TPP authorised by the FCA or
 
 See our [Getting Started](./docs/20-getting-started.md) page for instructions on accessing our sandbox and production APIs
 
-If you require test accounts please contact mailto:{prod_contact_us_email}
+If you require test accounts please contact [support@moneff.com](mailto:support@moneff.com)
