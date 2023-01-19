@@ -21,7 +21,6 @@ The following apply to all domestic payment consents:
 
 ### `InstructedAmount/Amount`
 - There is no MAX `InstructedAmount/Amount` mandated by Moneff API.
-- 50,000 GBP is the default maximum when opening a Moneff account, but thresholds can be managed by the customer. Moneff suggest PISP notify the PSU that the same limits apply as in their Moneff app. It is possible from time to time that `domestic-payment-consents` is authorised, but the payment initiation fails due to account limits.
 
 ### `InstructedAmount/Currency`
 - `InstructedAmount/Currency` must be `GBP`
