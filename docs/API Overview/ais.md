@@ -29,8 +29,6 @@ Balances shown in this endpoint provide the `InterimAvailable` value.
 
 Pagination is supported on GET /accounts/{AccountId}/transactions end point with a page size of 100 transactions.
 
-> Please note GET /transactions end point is not supported
-
 ## Beneficiaries
 [Beneficiaries API](/perry/developer/documentation?resource=ukhub-moneff-portal&document=swagger/account-info-openapi.yaml#operations-tag-Beneficiaries)
 
