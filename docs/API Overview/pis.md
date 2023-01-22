@@ -52,7 +52,7 @@ The PISP can address this in one of two ways:
 - Integrate with Moneff beneficiaries API and can confirm that the recipient already exists before sending the consent to allow for a better user experience
 
 ### `LocalInstrument`
-The only `LocalInstrument` supported is faster payment scheme. This field, if specified, must have the value `UK.OBIE.FPS`. If anything other than this is sent by PISP in consent payload then an error will be returned.
+The only `LocalInstrument` supported is faster payment scheme. In this field, if specified, we support values `UK.OBIE.FPS`, `UK.OBIE.CHAPS`, `UK.OBIE.SEPACreditTransfer`, `UK.OBIE.Target2`, `UK.OBIE.SWIFT`, `UK.OBIE.SEPAInstantCreditTransfer`. If anything other than this is sent by PISP in consent payload then an error will be returned.
 
 However, this field is not mandatory so we suggest PISP simply not include this field and Moneff will stage consent as a faster payment.
 
