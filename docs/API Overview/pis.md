@@ -63,6 +63,7 @@ The only supported `Account.SchemeName` is `UK.OBIE.SortCodeAccountNumber` for b
 Payments can be made on all days including Saturdays, Sundays and Bank Holidays
 
 ## Standing Orders
+__The Moneff API does not support Standing Orders at the moment__
 - `Initiation/FirstPaymentDateTime` must be no more than 1 calendar year in advance, or PISP will be returned an error
 - `Initiation/FinalPaymentDateTime` must be after Initiation/FirstPaymentDateTime by at least a calendar day, or PISP will be returned error
 - `Initiation/Frequency` supported by Moneff  are:
