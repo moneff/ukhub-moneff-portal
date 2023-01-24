@@ -6,13 +6,13 @@ The base URL for all AIS APIs is: `https://rs1.ob.moneff.com/open-banking/v3.1/p
 ## Supported Payment Types
 The Moneff API currently only supports:
 - Domestic Payments
-- Domestic Scheduled Payments
-- Domestic Standing Orders
+- `payment-details` end-points
 
 The Moneff API __does not__ support:
 - International payments
 - File & Bulk payments
-- `payment-details` end-points
+- Domestic Scheduled Payments
+- Domestic Standing Orders
 
 Payments can only be made to existing beneficiaries.
 
@@ -62,6 +62,7 @@ The only supported `Account.SchemeName` is `UK.OBIE.SortCodeAccountNumber` for b
 Payments can be made on all days including Saturdays, Sundays and Bank Holidays
 
 ## Standing Orders
+__The Moneff API does not support Standing Orders at the moment__
 - `Initiation/FirstPaymentDateTime` must be no more than 1 calendar year in advance, or PISP will be returned an error
 - `Initiation/FinalPaymentDateTime` must be after Initiation/FirstPaymentDateTime by at least a calendar day, or PISP will be returned error
 - `Initiation/Frequency` supported by Moneff  are:
