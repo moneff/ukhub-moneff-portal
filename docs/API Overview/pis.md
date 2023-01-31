@@ -4,17 +4,18 @@
 The base URL for all AIS APIs is: `https://rs1.ob.moneff.com/open-banking/v3.1/pisp/**`
 
 ## Supported Payment Types
-The Moneff API currently only supports:
+The Moneff API currently supports:
 - Domestic Payments
+- International Payments
+- Direct Debit
+- Beneficiaries end-points
+- Payments to not existing beneficiaries
 - `payment-details` end-points
 
 The Moneff API __does not__ support:
-- International payments
 - File & Bulk payments
 - Domestic Scheduled Payments
 - Domestic Standing Orders
-
-Payments can only be made to existing beneficiaries.
 
 ## Overview
 The following apply to all domestic payment consents:
