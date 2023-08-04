@@ -10,12 +10,7 @@ The base URL for all AIS APIs is: `https://rs1.ob.moneff.com/open-banking/v3.1/a
 [Accounts API](/perry/developer/documentation?resource=ukhub-moneff-portal&document=swagger/account-info-openapi.yaml#operations-tag-Accounts)
 
 Moneff members will have one or more of the following accounts:
-- Moneff Personal Account
-- Moneff Personal Savings Pot
-- Moneff Joint Account
-- Moneff Joint Savings Pot
 - Moneff Business Current Account
-- Moneff Business Savings Pot
 
 ## Balances
 [Balances API](/perry/developer/documentation?resource=ukhub-moneff-portal&document=swagger/account-info-openapi.yaml#operations-tag-Balances)
