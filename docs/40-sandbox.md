@@ -191,8 +191,6 @@ Once the PSU consent is successful, Moneff will redirect back to the redirect UR
 #### Step 5: Retrieve Account and Transaction Data
 Retrieve Account Data
 
-![](/assets/images/accounts.png)
+![](/assets/images/accounts.jpeg)
 
-<mark>Retrieve Transaction Data (Image shows /transactions endpoint which is not supported)</mark>
-
-![](/assets/images/transactions.png)
+![](/assets/images/transactions.jpeg)
